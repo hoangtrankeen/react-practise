@@ -1,0 +1,35 @@
+.header .logo {
+    font-size: 40px;
+    float: left;
+    width: 100px;
+}
+.header {
+    background-color: salmon;
+}
+.header-container {
+    padding: 30px 0;
+}
+
+.topmenu {
+    float: right;
+    width: calc(100% - 100px);
+    text-align: right;
+}
+
+.header .nav {
+    margin: 0;
+}
+
+.nav .item {
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+.nav .item a {
+    font-size: 20px;
+    color: white;
+}
+
+.nav .item a:hover {
+    color: #b3d4fc;
+}
